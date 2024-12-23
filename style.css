@@ -1,0 +1,280 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+
+header{
+    background-color: #dccfb4;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+header img{
+    width: 10%;
+    height: 17vh;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 3em;
+}
+
+header li{
+    list-style-type: none;
+    font-size: 2.1em;
+    text-transform: uppercase;
+}
+
+header ul a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+/* MAIN */
+main{
+    background-color: #dccfb4;
+    padding-top: 12em;
+}
+
+.container{
+    width: 80%;
+    background-color: #ccbca4;
+    margin: 0 auto;  
+    padding: 0 2%;
+    padding-bottom: 5em;
+    box-sizing: border-box;
+    /* outline: 2px solid green; */
+}
+
+/* INTRODUÇÃO */
+.introducao{
+    display: flex;
+    justify-content: space-around;
+    /* outline: 2px solid red; */
+    padding-top: 4em;
+}
+
+.introducao h1{
+    margin-bottom: 0.8em;
+}
+
+.introducao img{
+    width: 26%;
+    height: 29vh;
+    margin: 0 auto;
+    border-radius: 50px;
+    transition: transform 0.6s ease;
+}
+
+.introducao img:hover{
+    transform: scale(1.05);
+}
+
+.introducao div{
+    margin: auto;
+    font-size: 2em;
+}
+
+
+/* INTRODUÇÃO */
+
+/* PRATOS */
+
+.container-article h2{
+    text-align: center;
+    font-size: 4em;
+    margin-top: 3.5em;
+    margin-bottom: 2.5em;
+}
+
+.article-da-casa{
+    margin-top: 15em;
+}
+
+.pratos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* outline: 2px solid red; */
+
+}
+
+.pratos img{
+    margin: auto;
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    border-radius: 50px;
+    transition: transform 0.4s ease;
+}
+
+.pratos img:hover{
+    transform: scale(1.05);
+}
+
+.pratos div p{
+    font-size: 1.3em;
+    color: black;
+    text-align: center;
+}
+
+/* PRATOS */
+
+/* COMBOS */
+
+.container-combos{
+    margin-top: 10em;
+    /* outline: 2px solid red; */
+}
+.combos h2{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.combos-combos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.combos-combos img {
+    margin: auto;
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    border-radius: 50px;
+    transition: transform 0.4s ease;
+}
+
+.combos-combos img:hover{
+    transform: scale(1.05);
+}
+
+.combos-combos div p{
+    font-size: 1.3em;
+    color: black;
+    text-align: center;
+}
+
+/* COMBOS */
+
+/* ESPECIAL DA CASA */
+
+.container-da-casa{
+    margin-top: 10em;
+}
+
+.container-da-casa h3{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 0.2em;
+}
+
+.container-da-casa p{
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.article-da-casa{
+    display: flex;
+    /* outline: 2px solid red; */
+    justify-content: space-around;
+}
+
+.article-da-casa img{
+    width: 30%;
+    height: 30vh;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 1.6em;
+    margin-left: 6em;
+    transition: transform 0.6s ease;
+}
+
+.article-da-casa img:hover{
+    transform: scale(1.05);
+}
+
+.palavras-da-casa{
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+    /* outline: 2px solid green; */
+    margin: 0 2em 0 2em;
+    margin-top: 1em;
+}
+
+.palavras-da-casa h4 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.palavras-da-casa p{
+    margin-top: 1em;
+    text-align: justify;
+    font-size: 1em;
+    margin: 0 100px 0 100px;
+}
+/* ESPECIAL DA CASA */
+
+/* MAIN */
+
+
+/* FOOTER */
+footer{
+    background-color: #dccfb4;
+}
+
+footer h5{
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer h6{
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.facebook{
+    width: 3.21%;
+    border-radius: 5px;
+    margin-bottom: 0.3em;
+}
+
+
+/* FOOTER */
+
